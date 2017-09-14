@@ -1,8 +1,8 @@
 *** Variables ***
-${ปุ่มเพิ่มสินค้า}        //*[@id="web-view"]/button/i
+${ปุ่มเพิ่มสินค้า}        //*[@id="web-view"]/button
 ${ปุ่มตกลง}           /html/body/div[3]/div[7]/div/button
 ${ช่อง ค้นหาสินค้า}    //*[@id="SItem"]/div[2]/section/div[2]/input
-${ปุ่มค้นหา}          //*[@id="SItem"]/div[2]/section/div[3]/button/span/i
+${ปุ่มค้นหา}          //*[@id="SItem"]/div[2]/section/div[3]/button
 
 *** Keywords ***
 เลือกสินค้า
@@ -13,7 +13,7 @@ ${ปุ่มค้นหา}          //*[@id="SItem"]/div[2]/section/div[3]/b
     จะพบชื่อสินค้า    น้ำยาเชื่อมท่อ
 
 กดปุ่มค้นหาสินค้า
-    Click Button   ${ปุ่มเพิ่มสินค้า} 
+    Click Button   ${ปุ่มเพิ่มสินค้า}
 กรอกรหัสสินค้า
     [Arguments]    ${Itemcode}
     Input Text    ${ช่อง ค้นหาสินค้า}    ${Itemcode}
