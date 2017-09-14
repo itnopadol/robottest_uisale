@@ -1,6 +1,11 @@
 *** Settings ***
 Resource    setting.robot
 Resource    login.robot
+Resource    สร้างเอกสารใหม่.robot
+Resource    เลือกเมนูใบเสนอราคา.robot
+Resource    SearchCustomer.robot
+Resource    SearchItem.robot
+Resource    SearchSale.robot
 Test Teardown    ปิดหน้าเบราเซอร์
 
 *** Test Cases ***
