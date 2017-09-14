@@ -1,18 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<<<<<<< HEAD
-<robot generated="20170914 15:58:42.927" generator="Robot 3.0.2 (Python 2.7.13 on linux2)">
+<robot generated="20170914 16:06:07.176" generator="Robot 3.0.2 (Python 2.7.13 on linux2)">
 <suite source="/home/it10n/npdl-robot/robottest_uisale/test_case.robot" id="s1" name="Test Case">
-<test id="s1-t1" name="สร้างใบเสนอราคาขายสดด้วย user liverbee and password 1234">
-<kw name="เข้าสู่ระบบสำเร็จ">
-<msg timestamp="20170914 15:58:42.991" level="FAIL">User keyword 'เข้าสู่ระบบสำเร็จ' contains no keywords.</msg>
-<status status="FAIL" endtime="20170914 15:58:42.991" starttime="20170914 15:58:42.990"></status>
-</kw>
-<status status="FAIL" endtime="20170914 15:58:42.991" critical="yes" starttime="20170914 15:58:42.989">User keyword 'เข้าสู่ระบบสำเร็จ' contains no keywords.</status>
-</test>
-<status status="FAIL" endtime="20170914 15:58:42.991" starttime="20170914 15:58:42.928"></status>
-=======
-<robot generated="20170914 15:59:31.137" generator="Robot 3.0.2 (Python 2.7.13 on linux2)">
-<suite source="/home/it9n/robot/robottest_uisale/test_case.robot" id="s1" name="Test Case">
 <test id="s1-t1" name="สร้างใบเสนอราคาขายสดด้วย user liverbee and password 1234">
 <kw name="เข้าสู่ระบบสำเร็จ" library="login">
 <kw name="เปิดเบราเซอร์แล้วพิมพ์ URL" library="setting">
@@ -22,10 +10,10 @@
 <arg>${URL}</arg>
 <arg>${Browser}</arg>
 </arguments>
-<msg timestamp="20170914 15:59:31.202" level="INFO">Opening browser 'gc' to base url 'http://venus/Sale_vue'</msg>
-<status status="PASS" endtime="20170914 15:59:34.551" starttime="20170914 15:59:31.201"></status>
+<msg timestamp="20170914 16:06:07.240" level="INFO">Opening browser 'gc' to base url 'http://venus/Sale_vue'</msg>
+<status status="PASS" endtime="20170914 16:06:10.382" starttime="20170914 16:06:07.240"></status>
 </kw>
-<status status="PASS" endtime="20170914 15:59:34.551" starttime="20170914 15:59:31.201"></status>
+<status status="PASS" endtime="20170914 16:06:10.382" starttime="20170914 16:06:07.240"></status>
 </kw>
 <kw name="กรอก Username" library="login">
 <arguments>
@@ -37,10 +25,10 @@
 <arg>${ช่อง Username}</arg>
 <arg>${username}</arg>
 </arguments>
-<msg timestamp="20170914 15:59:34.553" level="INFO">Typing text 'liverbee' into text field '//*[@id="app"]/div[1]/div/div[2]/form/div[1]/p/input'</msg>
-<status status="PASS" endtime="20170914 15:59:34.648" starttime="20170914 15:59:34.552"></status>
+<msg timestamp="20170914 16:06:10.383" level="INFO">Typing text 'liverbee' into text field '//*[@id="app"]/div[1]/div/div[2]/form/div[1]/p/input'</msg>
+<status status="PASS" endtime="20170914 16:06:10.476" starttime="20170914 16:06:10.382"></status>
 </kw>
-<status status="PASS" endtime="20170914 15:59:34.648" starttime="20170914 15:59:34.551"></status>
+<status status="PASS" endtime="20170914 16:06:10.476" starttime="20170914 16:06:10.382"></status>
 </kw>
 <kw name="กรอก Password" library="login">
 <arguments>
@@ -52,10 +40,10 @@
 <arg>${ช่อง Password}</arg>
 <arg>${pwd}</arg>
 </arguments>
-<msg timestamp="20170914 15:59:34.649" level="INFO">Typing password into text field '//*[@id="app"]/div[1]/div/div[2]/form/div[2]/p/input'</msg>
-<status status="PASS" endtime="20170914 15:59:34.728" starttime="20170914 15:59:34.648"></status>
+<msg timestamp="20170914 16:06:10.477" level="INFO">Typing password into text field '//*[@id="app"]/div[1]/div/div[2]/form/div[2]/p/input'</msg>
+<status status="PASS" endtime="20170914 16:06:10.550" starttime="20170914 16:06:10.477"></status>
 </kw>
-<status status="PASS" endtime="20170914 15:59:34.728" starttime="20170914 15:59:34.648"></status>
+<status status="PASS" endtime="20170914 16:06:10.551" starttime="20170914 16:06:10.477"></status>
 </kw>
 <kw name="กดปุ่ม login" library="login">
 <kw name="Click Button" library="Selenium2Library">
@@ -63,10 +51,10 @@
 <arguments>
 <arg>${ปุ่ม login}</arg>
 </arguments>
-<msg timestamp="20170914 15:59:34.728" level="INFO">Clicking button '//*[@id="app"]/div[1]/div/div[2]/form/div[3]/p/button'.</msg>
-<status status="PASS" endtime="20170914 15:59:34.799" starttime="20170914 15:59:34.728"></status>
+<msg timestamp="20170914 16:06:10.551" level="INFO">Clicking button '//*[@id="app"]/div[1]/div/div[2]/form/div[3]/p/button'.</msg>
+<status status="PASS" endtime="20170914 16:06:10.627" starttime="20170914 16:06:10.551"></status>
 </kw>
-<status status="PASS" endtime="20170914 15:59:34.799" starttime="20170914 15:59:34.728"></status>
+<status status="PASS" endtime="20170914 16:06:10.628" starttime="20170914 16:06:10.551"></status>
 </kw>
 <kw name="จะพบข้อความ" library="login">
 <arguments>
@@ -77,32 +65,31 @@
 <arguments>
 <arg>${output}</arg>
 </arguments>
-<status status="PASS" endtime="20170914 15:59:37.036" starttime="20170914 15:59:34.800"></status>
+<status status="PASS" endtime="20170914 16:06:12.156" starttime="20170914 16:06:10.628"></status>
 </kw>
 <kw name="Capture Page Screenshot" library="Selenium2Library">
 <doc>Takes a screenshot of the current page and embeds it into the log.</doc>
-<msg timestamp="20170914 15:59:37.161" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-1.png"&gt;&lt;img src="selenium-screenshot-1.png" width="800px"&gt;&lt;/a&gt;</msg>
-<status status="PASS" endtime="20170914 15:59:37.161" starttime="20170914 15:59:37.036"></status>
+<msg timestamp="20170914 16:06:12.244" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-1.png"&gt;&lt;img src="selenium-screenshot-1.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" endtime="20170914 16:06:12.244" starttime="20170914 16:06:12.156"></status>
 </kw>
-<status status="PASS" endtime="20170914 15:59:37.161" starttime="20170914 15:59:34.800"></status>
+<status status="PASS" endtime="20170914 16:06:12.244" starttime="20170914 16:06:10.628"></status>
 </kw>
-<status status="PASS" endtime="20170914 15:59:37.161" starttime="20170914 15:59:31.201"></status>
+<status status="PASS" endtime="20170914 16:06:12.244" starttime="20170914 16:06:07.240"></status>
 </kw>
 <kw name="สร้างเอกสารใหม่">
-<msg timestamp="20170914 15:59:37.164" level="FAIL">No keyword with name 'สร้างเอกสารใหม่' found.</msg>
-<status status="FAIL" endtime="20170914 15:59:37.165" starttime="20170914 15:59:37.164"></status>
+<msg timestamp="20170914 16:06:12.247" level="FAIL">No keyword with name 'สร้างเอกสารใหม่' found.</msg>
+<status status="FAIL" endtime="20170914 16:06:12.247" starttime="20170914 16:06:12.247"></status>
 </kw>
 <kw type="teardown" name="ปิดหน้าเบราเซอร์" library="setting">
 <kw name="Close Browser" library="Selenium2Library">
 <doc>Closes the current browser.</doc>
-<status status="PASS" endtime="20170914 15:59:37.232" starttime="20170914 15:59:37.166"></status>
+<status status="PASS" endtime="20170914 16:06:12.303" starttime="20170914 16:06:12.248"></status>
 </kw>
-<status status="PASS" endtime="20170914 15:59:37.232" starttime="20170914 15:59:37.165"></status>
+<status status="PASS" endtime="20170914 16:06:12.303" starttime="20170914 16:06:12.248"></status>
 </kw>
-<status status="FAIL" endtime="20170914 15:59:37.232" critical="yes" starttime="20170914 15:59:31.200">No keyword with name 'สร้างเอกสารใหม่' found.</status>
+<status status="FAIL" endtime="20170914 16:06:12.303" critical="yes" starttime="20170914 16:06:07.239">No keyword with name 'สร้างเอกสารใหม่' found.</status>
 </test>
-<status status="FAIL" endtime="20170914 15:59:37.235" starttime="20170914 15:59:31.138"></status>
->>>>>>> 306bcf102bb91c4256985bdc2609b282ad512bbc
+<status status="FAIL" endtime="20170914 16:06:12.304" starttime="20170914 16:06:07.177"></status>
 </suite>
 <statistics>
 <total>
@@ -116,9 +103,5 @@
 </suite>
 </statistics>
 <errors>
-<<<<<<< HEAD
-<msg timestamp="20170914 15:58:42.989" level="ERROR">Error in file '/home/it10n/npdl-robot/robottest_uisale/test_case.robot': Resource file 'Login_2.robot' does not exist.</msg>
-=======
->>>>>>> 306bcf102bb91c4256985bdc2609b282ad512bbc
 </errors>
 </robot>
