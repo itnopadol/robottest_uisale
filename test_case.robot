@@ -1,9 +1,7 @@
 *** Settings ***
 Resource    setting.robot
-Resource    Login_2.robot
-Test Teardown    Close Browser
-
-
+Resource    login.robot
+Test Teardown    ปิดหน้าเบราเซอร์
 
 *** Test Cases ***
 สร้างใบเสนอราคาขายสดด้วย user liverbee and password 1234
