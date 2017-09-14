@@ -1,6 +1,8 @@
 *** Settings ***
 Resource    setting.robot
 Resource    login.robot
+Resource    สร้างเอกสารใหม่.robot
+Resource    เลือกเมนูใบเสนอราคา.robot
 Test Teardown    ปิดหน้าเบราเซอร์
 
 *** Test Cases ***
