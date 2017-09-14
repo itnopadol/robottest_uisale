@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20170914 15:58:42.927" generator="Robot 3.0.2 (Python 2.7.13 on linux2)">
+<suite source="/home/it10n/npdl-robot/robottest_uisale/test_case.robot" id="s1" name="Test Case">
+<test id="s1-t1" name="สร้างใบเสนอราคาขายสดด้วย user liverbee and password 1234">
+<kw name="เข้าสู่ระบบสำเร็จ">
+<msg timestamp="20170914 15:58:42.991" level="FAIL">User keyword 'เข้าสู่ระบบสำเร็จ' contains no keywords.</msg>
+<status status="FAIL" endtime="20170914 15:58:42.991" starttime="20170914 15:58:42.990"></status>
+</kw>
+<status status="FAIL" endtime="20170914 15:58:42.991" critical="yes" starttime="20170914 15:58:42.989">User keyword 'เข้าสู่ระบบสำเร็จ' contains no keywords.</status>
+</test>
+<status status="FAIL" endtime="20170914 15:58:42.991" starttime="20170914 15:58:42.928"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="1" pass="0">Critical Tests</stat>
+<stat fail="1" pass="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="1" id="s1" name="Test Case" pass="0">Test Case</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20170914 15:58:42.989" level="ERROR">Error in file '/home/it10n/npdl-robot/robottest_uisale/test_case.robot': Resource file 'Login_2.robot' does not exist.</msg>
+</errors>
+</robot>
