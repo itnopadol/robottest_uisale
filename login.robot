@@ -10,7 +10,7 @@ ${ปุ่ม login}    //*[@id="app"]/div[1]/div/div[2]/form/div[3]/p/button
     กรอก Username    liverbee
     กรอก Password    1234
     กดปุ่ม login
-    จะพบข้อความ   Quotation
+    จะพบข้อความ   ใบเสนอราคา
 
 กรอก Username
     [Arguments]    ${username}
