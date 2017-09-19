@@ -6,6 +6,7 @@ Resource    เลือกเมนูใบเสนอราคา.robot
 Resource    SearchCustomer.robot
 Resource    SearchItem.robot
 Resource    SearchSale.robot
+Resource    save_QT.robot
 Test Teardown    ปิดหน้าเบราเซอร์
 
 *** Test Cases ***

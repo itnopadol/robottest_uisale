@@ -1,0 +1,9 @@
+*** keywords ***
+กดบันทึกเอกสาร
+    Click Element    xpath=//*[@id="app"]/div[1]/div[1]/div[7]/button[1]
+    Set Selenium Speed    1
+    Click Element    xpath=//*[@id="app"]/div[1]/div[1]/div[7]/button[3]/i
+
+แสดงเลขที่ใบเสนอราคา
+    Wait Until Page Contains    S01-QHV60
+    Capture Page Screenshot
