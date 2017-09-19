@@ -5,10 +5,10 @@ ${ปุ่ม login}    //*[@id="app"]/div[1]/div/div[2]/form/div[3]/p/button
 
 *** Keywords ***
 เข้าสู่ระบบสำเร็จ
-    [Arguments]
+    [Arguments]    ${user}    ${pass}
     เปิดเบราเซอร์แล้วพิมพ์ URL
-    กรอก Username    liverbee
-    กรอก Password    1234
+    กรอก Username    ${user}
+    กรอก Password    ${pass}
     กดปุ่ม login
     จะพบข้อความ   ใบเสนอราคา
 
