@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generated="20170919 11:49:27.748" generator="Robot 3.0.2 (Python 2.7.13 on linux2)">
+<robot generated="20170919 11:55:32.858" generator="Robot 3.0.2 (Python 2.7.13 on linux2)">
 <suite source="/home/it9n/robot/robottest_uisale/test_case.robot" id="s1" name="Test Case">
 <test id="s1-t1" name="สร้างใบเสนอราคาขายสดด้วย user liverbee and password 1234">
 <kw name="เข้าสู่ระบบสำเร็จ" library="login">
@@ -10,10 +10,10 @@
 <arg>${URL}</arg>
 <arg>${Browser}</arg>
 </arguments>
-<msg timestamp="20170919 11:49:27.820" level="INFO">Opening browser 'gc' to base url 'http://venus/Sale_vue'</msg>
-<status status="PASS" endtime="20170919 11:49:31.128" starttime="20170919 11:49:27.820"></status>
+<msg timestamp="20170919 11:55:32.931" level="INFO">Opening browser 'gc' to base url 'http://venus/Sale_vue'</msg>
+<status status="PASS" endtime="20170919 11:55:36.217" starttime="20170919 11:55:32.930"></status>
 </kw>
-<status status="PASS" endtime="20170919 11:49:31.128" starttime="20170919 11:49:27.820"></status>
+<status status="PASS" endtime="20170919 11:55:36.217" starttime="20170919 11:55:32.930"></status>
 </kw>
 <kw name="กรอก Username" library="login">
 <arguments>
@@ -25,10 +25,10 @@
 <arg>${ช่อง Username}</arg>
 <arg>${username}</arg>
 </arguments>
-<msg timestamp="20170919 11:49:31.129" level="INFO">Typing text 'liverbee' into text field '//*[@id="app"]/div[1]/div/div[2]/form/div[1]/p/input'</msg>
-<status status="PASS" endtime="20170919 11:49:31.224" starttime="20170919 11:49:31.129"></status>
+<msg timestamp="20170919 11:55:36.218" level="INFO">Typing text 'liverbee' into text field '//*[@id="app"]/div[1]/div/div[2]/form/div[1]/p/input'</msg>
+<status status="PASS" endtime="20170919 11:55:36.313" starttime="20170919 11:55:36.218"></status>
 </kw>
-<status status="PASS" endtime="20170919 11:49:31.224" starttime="20170919 11:49:31.128"></status>
+<status status="PASS" endtime="20170919 11:55:36.314" starttime="20170919 11:55:36.218"></status>
 </kw>
 <kw name="กรอก Password" library="login">
 <arguments>
@@ -40,10 +40,10 @@
 <arg>${ช่อง Password}</arg>
 <arg>${pwd}</arg>
 </arguments>
-<msg timestamp="20170919 11:49:31.225" level="INFO">Typing password into text field '//*[@id="app"]/div[1]/div/div[2]/form/div[2]/p/input'</msg>
-<status status="PASS" endtime="20170919 11:49:31.306" starttime="20170919 11:49:31.225"></status>
+<msg timestamp="20170919 11:55:36.314" level="INFO">Typing password into text field '//*[@id="app"]/div[1]/div/div[2]/form/div[2]/p/input'</msg>
+<status status="PASS" endtime="20170919 11:55:36.395" starttime="20170919 11:55:36.314"></status>
 </kw>
-<status status="PASS" endtime="20170919 11:49:31.306" starttime="20170919 11:49:31.224"></status>
+<status status="PASS" endtime="20170919 11:55:36.395" starttime="20170919 11:55:36.314"></status>
 </kw>
 <kw name="กดปุ่ม login" library="login">
 <kw name="Click Button" library="Selenium2Library">
@@ -51,10 +51,10 @@
 <arguments>
 <arg>${ปุ่ม login}</arg>
 </arguments>
-<msg timestamp="20170919 11:49:31.307" level="INFO">Clicking button '//*[@id="app"]/div[1]/div/div[2]/form/div[3]/p/button'.</msg>
-<status status="PASS" endtime="20170919 11:49:31.385" starttime="20170919 11:49:31.307"></status>
+<msg timestamp="20170919 11:55:36.396" level="INFO">Clicking button '//*[@id="app"]/div[1]/div/div[2]/form/div[3]/p/button'.</msg>
+<status status="PASS" endtime="20170919 11:55:36.475" starttime="20170919 11:55:36.396"></status>
 </kw>
-<status status="PASS" endtime="20170919 11:49:31.385" starttime="20170919 11:49:31.307"></status>
+<status status="PASS" endtime="20170919 11:55:36.476" starttime="20170919 11:55:36.395"></status>
 </kw>
 <kw name="จะพบข้อความ" library="login">
 <arguments>
@@ -65,16 +65,16 @@
 <arguments>
 <arg>${output}</arg>
 </arguments>
-<status status="PASS" endtime="20170919 11:49:32.890" starttime="20170919 11:49:31.386"></status>
+<status status="PASS" endtime="20170919 11:55:37.954" starttime="20170919 11:55:36.476"></status>
 </kw>
 <kw name="Capture Page Screenshot" library="Selenium2Library">
 <doc>Takes a screenshot of the current page and embeds it into the log.</doc>
-<msg timestamp="20170919 11:49:32.989" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-1.png"&gt;&lt;img src="selenium-screenshot-1.png" width="800px"&gt;&lt;/a&gt;</msg>
-<status status="PASS" endtime="20170919 11:49:32.989" starttime="20170919 11:49:32.890"></status>
+<msg timestamp="20170919 11:55:38.085" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-1.png"&gt;&lt;img src="selenium-screenshot-1.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" endtime="20170919 11:55:38.085" starttime="20170919 11:55:37.954"></status>
 </kw>
-<status status="PASS" endtime="20170919 11:49:32.989" starttime="20170919 11:49:31.386"></status>
+<status status="PASS" endtime="20170919 11:55:38.085" starttime="20170919 11:55:36.476"></status>
 </kw>
-<status status="PASS" endtime="20170919 11:49:32.989" starttime="20170919 11:49:27.819"></status>
+<status status="PASS" endtime="20170919 11:55:38.086" starttime="20170919 11:55:32.930"></status>
 </kw>
 <kw name="สร้างเอกสารใหม่" library="สร้างเอกสารใหม่">
 <kw name="Wait Until Page Contains" library="Selenium2Library">
@@ -82,32 +82,32 @@
 <arguments>
 <arg>W01</arg>
 </arguments>
-<status status="PASS" endtime="20170919 11:49:34.698" starttime="20170919 11:49:32.990"></status>
+<status status="PASS" endtime="20170919 11:55:40.280" starttime="20170919 11:55:38.086"></status>
 </kw>
 <kw name="Click Button" library="Selenium2Library">
 <doc>Clicks a button identified by `locator`.</doc>
 <arguments>
 <arg>id=bt_tools</arg>
 </arguments>
-<msg timestamp="20170919 11:49:34.698" level="INFO">Clicking button 'id=bt_tools'.</msg>
-<status status="PASS" endtime="20170919 11:49:34.776" starttime="20170919 11:49:34.698"></status>
+<msg timestamp="20170919 11:55:40.281" level="INFO">Clicking button 'id=bt_tools'.</msg>
+<status status="PASS" endtime="20170919 11:55:40.409" starttime="20170919 11:55:40.280"></status>
 </kw>
 <kw name="Click Button" library="Selenium2Library">
 <doc>Clicks a button identified by `locator`.</doc>
 <arguments>
 <arg>id=new_doc</arg>
 </arguments>
-<msg timestamp="20170919 11:49:34.777" level="INFO">Clicking button 'id=new_doc'.</msg>
-<status status="PASS" endtime="20170919 11:49:34.881" starttime="20170919 11:49:34.777"></status>
+<msg timestamp="20170919 11:55:40.410" level="INFO">Clicking button 'id=new_doc'.</msg>
+<status status="PASS" endtime="20170919 11:55:40.534" starttime="20170919 11:55:40.409"></status>
 </kw>
 <kw name="Wait Until Page Contains" library="Selenium2Library">
 <doc>Waits until `text` appears on current page.</doc>
 <arguments>
 <arg>เลือกประเภทเอกสาร</arg>
 </arguments>
-<status status="PASS" endtime="20170919 11:49:34.941" starttime="20170919 11:49:34.882"></status>
+<status status="PASS" endtime="20170919 11:55:40.554" starttime="20170919 11:55:40.534"></status>
 </kw>
-<status status="PASS" endtime="20170919 11:49:34.941" starttime="20170919 11:49:32.990"></status>
+<status status="PASS" endtime="20170919 11:55:40.554" starttime="20170919 11:55:38.086"></status>
 </kw>
 <kw name="เลือกเมนูใบเสนอราคา" library="เลือกเมนูใบเสนอราคา">
 <kw name="Wait Until Element Is Visible" library="Selenium2Library">
@@ -115,24 +115,24 @@
 <arguments>
 <arg>${ปุ่ม ใบเสนอราคา}</arg>
 </arguments>
-<status status="PASS" endtime="20170919 11:49:34.972" starttime="20170919 11:49:34.941"></status>
+<status status="PASS" endtime="20170919 11:55:40.586" starttime="20170919 11:55:40.555"></status>
 </kw>
 <kw name="Click Element" library="Selenium2Library">
 <doc>Click element identified by `locator`.</doc>
 <arguments>
 <arg>${ปุ่ม ใบเสนอราคา}</arg>
 </arguments>
-<msg timestamp="20170919 11:49:34.973" level="INFO">Clicking element '//*[@id="app"]/div[1]/div/button[1]'.</msg>
-<status status="PASS" endtime="20170919 11:49:35.135" starttime="20170919 11:49:34.973"></status>
+<msg timestamp="20170919 11:55:40.587" level="INFO">Clicking element '//*[@id="app"]/div[1]/div/button[1]'.</msg>
+<status status="PASS" endtime="20170919 11:55:40.743" starttime="20170919 11:55:40.587"></status>
 </kw>
 <kw name="Wait Until Page Contains" library="Selenium2Library">
 <doc>Waits until `text` appears on current page.</doc>
 <arguments>
 <arg>เลขที่เอกสาร</arg>
 </arguments>
-<status status="PASS" endtime="20170919 11:49:35.159" starttime="20170919 11:49:35.136"></status>
+<status status="PASS" endtime="20170919 11:55:40.769" starttime="20170919 11:55:40.743"></status>
 </kw>
-<status status="PASS" endtime="20170919 11:49:35.159" starttime="20170919 11:49:34.941"></status>
+<status status="PASS" endtime="20170919 11:55:40.769" starttime="20170919 11:55:40.555"></status>
 </kw>
 <kw name="เลือกลูกค้า" library="SearchCustomer">
 <kw name="กดปุ่มค้นหาลูกค้า1" library="SearchCustomer">
@@ -141,16 +141,16 @@
 <arguments>
 <arg>60</arg>
 </arguments>
-<status status="PASS" endtime="20170919 11:49:35.179" starttime="20170919 11:49:35.160"></status>
+<status status="PASS" endtime="20170919 11:55:40.791" starttime="20170919 11:55:40.769"></status>
 </kw>
 <kw name="Wait Until Element Is Visible" library="Selenium2Library">
 <doc>Waits until element specified with `locator` is visible.</doc>
 <arguments>
 <arg>${ปุ่มค้นหาลูกค้า}</arg>
 </arguments>
-<status status="PASS" endtime="20170919 11:49:35.219" starttime="20170919 11:49:35.179"></status>
+<status status="PASS" endtime="20170919 11:55:40.827" starttime="20170919 11:55:40.791"></status>
 </kw>
-<status status="PASS" endtime="20170919 11:49:35.219" starttime="20170919 11:49:35.160"></status>
+<status status="PASS" endtime="20170919 11:55:40.827" starttime="20170919 11:55:40.769"></status>
 </kw>
 <kw name="กรอกรหัสลูกค้า" library="SearchCustomer">
 <arguments>
@@ -161,43 +161,43 @@
 <arguments>
 <arg>id=loading</arg>
 </arguments>
-<status status="PASS" endtime="20170919 11:49:35.519" starttime="20170919 11:49:35.220"></status>
+<status status="PASS" endtime="20170919 11:55:41.092" starttime="20170919 11:55:40.828"></status>
 </kw>
 <kw name="Focus" library="Selenium2Library">
 <doc>Sets focus to element identified by `locator`.</doc>
 <arguments>
 <arg>${ปุ่มค้นหาลูกค้า}</arg>
 </arguments>
-<status status="PASS" endtime="20170919 11:49:35.530" starttime="20170919 11:49:35.519"></status>
+<status status="PASS" endtime="20170919 11:55:41.120" starttime="20170919 11:55:41.092"></status>
 </kw>
 <kw name="Click Element" library="Selenium2Library">
 <doc>Click element identified by `locator`.</doc>
 <arguments>
 <arg>${ปุ่มค้นหาลูกค้า}</arg>
 </arguments>
-<msg timestamp="20170919 11:49:35.530" level="INFO">Clicking element '//*[@id="app"]/div[1]/div[1]/div[3]/div[4]'.</msg>
-<status status="PASS" endtime="20170919 11:49:35.595" starttime="20170919 11:49:35.530"></status>
+<msg timestamp="20170919 11:55:41.122" level="INFO">Clicking element '//*[@id="app"]/div[1]/div[1]/div[3]/div[4]'.</msg>
+<status status="PASS" endtime="20170919 11:55:41.217" starttime="20170919 11:55:41.121"></status>
 </kw>
 <kw name="Set Selenium Timeout" library="Selenium2Library">
 <doc>Sets the timeout in seconds used by various keywords.</doc>
 <arguments>
 <arg>5</arg>
 </arguments>
-<status status="PASS" endtime="20170919 11:49:35.596" starttime="20170919 11:49:35.595"></status>
+<status status="PASS" endtime="20170919 11:55:41.218" starttime="20170919 11:55:41.217"></status>
 </kw>
 <kw name="Wait Until Element Is Not Visible" library="Selenium2Library">
 <doc>Waits until element specified with `locator` is not visible.</doc>
 <arguments>
 <arg>id=loading</arg>
 </arguments>
-<status status="PASS" endtime="20170919 11:49:35.848" starttime="20170919 11:49:35.596"></status>
+<status status="PASS" endtime="20170919 11:55:41.505" starttime="20170919 11:55:41.218"></status>
 </kw>
 <kw name="Focus" library="Selenium2Library">
 <doc>Sets focus to element identified by `locator`.</doc>
 <arguments>
 <arg>${ช่อง ค้นหาลูกค้า}</arg>
 </arguments>
-<status status="PASS" endtime="20170919 11:49:35.871" starttime="20170919 11:49:35.848"></status>
+<status status="PASS" endtime="20170919 11:55:41.544" starttime="20170919 11:55:41.506"></status>
 </kw>
 <kw name="Input Text" library="Selenium2Library">
 <doc>Types the given `text` into text field identified by `locator`.</doc>
@@ -205,10 +205,10 @@
 <arg>${ช่อง ค้นหาลูกค้า}</arg>
 <arg>${CustomerCode}</arg>
 </arguments>
-<msg timestamp="20170919 11:49:35.871" level="INFO">Typing text '41054' into text field '//*[@id="SCusto"]/div[2]/section/div[2]/input'</msg>
-<status status="PASS" endtime="20170919 11:49:35.966" starttime="20170919 11:49:35.871"></status>
+<msg timestamp="20170919 11:55:41.544" level="INFO">Typing text '41054' into text field '//*[@id="SCusto"]/div[2]/section/div[2]/input'</msg>
+<status status="PASS" endtime="20170919 11:55:41.644" starttime="20170919 11:55:41.544"></status>
 </kw>
-<status status="PASS" endtime="20170919 11:49:35.967" starttime="20170919 11:49:35.220"></status>
+<status status="PASS" endtime="20170919 11:55:41.644" starttime="20170919 11:55:40.827"></status>
 </kw>
 <kw name="กดปุ่มค้นหาลูกค้า2" library="SearchCustomer">
 <kw name="Click Button" library="Selenium2Library">
@@ -216,25 +216,25 @@
 <arguments>
 <arg>${ปุ่มค้นหา}</arg>
 </arguments>
-<msg timestamp="20170919 11:49:35.968" level="INFO">Clicking button '//*[@id="SCusto"]/div[2]/section/div[3]/button'.</msg>
-<status status="PASS" endtime="20170919 11:49:36.047" starttime="20170919 11:49:35.967"></status>
+<msg timestamp="20170919 11:55:41.645" level="INFO">Clicking button '//*[@id="SCusto"]/div[2]/section/div[3]/button'.</msg>
+<status status="PASS" endtime="20170919 11:55:41.718" starttime="20170919 11:55:41.644"></status>
 </kw>
 <kw name="Wait Until Element Is Not Visible" library="Selenium2Library">
 <doc>Waits until element specified with `locator` is not visible.</doc>
 <arguments>
 <arg>id=loading</arg>
 </arguments>
-<status status="PASS" endtime="20170919 11:49:36.905" starttime="20170919 11:49:36.048"></status>
+<status status="PASS" endtime="20170919 11:55:42.511" starttime="20170919 11:55:41.718"></status>
 </kw>
 <kw name="Click Element" library="Selenium2Library">
 <doc>Click element identified by `locator`.</doc>
 <arguments>
 <arg>//*[@id="SCusto"]/div[2]/section/div[4]/div[1]</arg>
 </arguments>
-<msg timestamp="20170919 11:49:36.905" level="INFO">Clicking element '//*[@id="SCusto"]/div[2]/section/div[4]/div[1]'.</msg>
-<status status="PASS" endtime="20170919 11:49:36.977" starttime="20170919 11:49:36.905"></status>
+<msg timestamp="20170919 11:55:42.512" level="INFO">Clicking element '//*[@id="SCusto"]/div[2]/section/div[4]/div[1]'.</msg>
+<status status="PASS" endtime="20170919 11:55:42.578" starttime="20170919 11:55:42.511"></status>
 </kw>
-<status status="PASS" endtime="20170919 11:49:36.977" starttime="20170919 11:49:35.967"></status>
+<status status="PASS" endtime="20170919 11:55:42.579" starttime="20170919 11:55:41.644"></status>
 </kw>
 <kw name="จะพบชื่อลูกค้า" library="SearchCustomer">
 <arguments>
@@ -245,11 +245,11 @@
 <arguments>
 <arg>${output}</arg>
 </arguments>
-<status status="PASS" endtime="20170919 11:49:36.995" starttime="20170919 11:49:36.977"></status>
+<status status="PASS" endtime="20170919 11:55:42.598" starttime="20170919 11:55:42.579"></status>
 </kw>
-<status status="PASS" endtime="20170919 11:49:36.996" starttime="20170919 11:49:36.977"></status>
+<status status="PASS" endtime="20170919 11:55:42.598" starttime="20170919 11:55:42.579"></status>
 </kw>
-<status status="PASS" endtime="20170919 11:49:36.996" starttime="20170919 11:49:35.159"></status>
+<status status="PASS" endtime="20170919 11:55:42.598" starttime="20170919 11:55:40.769"></status>
 </kw>
 <kw name="เลือกสินค้า" library="SearchItem">
 <kw name="กดปุ่มค้นหาสินค้า" library="SearchItem">
@@ -258,25 +258,25 @@
 <arguments>
 <arg>${ปุ่มเพิ่มสินค้า}</arg>
 </arguments>
-<msg timestamp="20170919 11:49:36.997" level="INFO">Clicking button '//*[@id="web-view"]/button'.</msg>
-<status status="PASS" endtime="20170919 11:49:37.142" starttime="20170919 11:49:36.997"></status>
+<msg timestamp="20170919 11:55:42.599" level="INFO">Clicking button '//*[@id="web-view"]/button'.</msg>
+<status status="PASS" endtime="20170919 11:55:42.735" starttime="20170919 11:55:42.599"></status>
 </kw>
 <kw name="Set Selenium Speed" library="Selenium2Library">
 <doc>Sets the delay in seconds that is waited after each Selenium command.</doc>
 <arguments>
 <arg>1</arg>
 </arguments>
-<status status="PASS" endtime="20170919 11:49:37.143" starttime="20170919 11:49:37.142"></status>
+<status status="PASS" endtime="20170919 11:55:42.735" starttime="20170919 11:55:42.735"></status>
 </kw>
 <kw name="Click Element" library="Selenium2Library">
 <doc>Click element identified by `locator`.</doc>
 <arguments>
 <arg>xpath=/html/body/div[3]/div[7]/div/button</arg>
 </arguments>
-<msg timestamp="20170919 11:49:37.144" level="INFO">Clicking element 'xpath=/html/body/div[3]/div[7]/div/button'.</msg>
-<status status="PASS" endtime="20170919 11:49:39.259" starttime="20170919 11:49:37.144"></status>
+<msg timestamp="20170919 11:55:42.736" level="INFO">Clicking element 'xpath=/html/body/div[3]/div[7]/div/button'.</msg>
+<status status="PASS" endtime="20170919 11:55:44.828" starttime="20170919 11:55:42.735"></status>
 </kw>
-<status status="PASS" endtime="20170919 11:49:39.259" starttime="20170919 11:49:36.997"></status>
+<status status="PASS" endtime="20170919 11:55:44.829" starttime="20170919 11:55:42.598"></status>
 </kw>
 <kw name="กรอกรหัสสินค้า" library="SearchItem">
 <arguments>
@@ -287,28 +287,28 @@
 <arguments>
 <arg>id=loading</arg>
 </arguments>
-<status status="PASS" endtime="20170919 11:49:41.302" starttime="20170919 11:49:39.260"></status>
+<status status="PASS" endtime="20170919 11:55:46.883" starttime="20170919 11:55:44.831"></status>
 </kw>
 <kw name="Wait Until Element Is Visible" library="Selenium2Library">
 <doc>Waits until element specified with `locator` is visible.</doc>
 <arguments>
 <arg>id=SItem</arg>
 </arguments>
-<status status="PASS" endtime="20170919 11:49:43.392" starttime="20170919 11:49:41.303"></status>
+<status status="PASS" endtime="20170919 11:55:49.004" starttime="20170919 11:55:46.884"></status>
 </kw>
 <kw name="Set Selenium Speed" library="Selenium2Library">
 <doc>Sets the delay in seconds that is waited after each Selenium command.</doc>
 <arguments>
 <arg>.5</arg>
 </arguments>
-<status status="PASS" endtime="20170919 11:49:43.394" starttime="20170919 11:49:43.393"></status>
+<status status="PASS" endtime="20170919 11:55:49.007" starttime="20170919 11:55:49.005"></status>
 </kw>
 <kw name="Wait Until Element Is Visible" library="Selenium2Library">
 <doc>Waits until element specified with `locator` is visible.</doc>
 <arguments>
 <arg>${ปุ่มค้นหาสินค้า}</arg>
 </arguments>
-<status status="PASS" endtime="20170919 11:49:44.514" starttime="20170919 11:49:43.395"></status>
+<status status="PASS" endtime="20170919 11:55:50.089" starttime="20170919 11:55:49.008"></status>
 </kw>
 <kw name="Input Text" library="Selenium2Library">
 <doc>Types the given `text` into text field identified by `locator`.</doc>
@@ -316,10 +316,10 @@
 <arg>${ช่อง ค้นหาสินค้า}</arg>
 <arg>${Itemcode}</arg>
 </arguments>
-<msg timestamp="20170919 11:49:44.517" level="INFO">Typing text '2120250' into text field '//*[@id="SItem"]/div[2]/section/div[2]/input'</msg>
-<status status="PASS" endtime="20170919 11:49:46.234" starttime="20170919 11:49:44.515"></status>
+<msg timestamp="20170919 11:55:50.092" level="INFO">Typing text '2120250' into text field '//*[@id="SItem"]/div[2]/section/div[2]/input'</msg>
+<status status="PASS" endtime="20170919 11:55:51.845" starttime="20170919 11:55:50.090"></status>
 </kw>
-<status status="PASS" endtime="20170919 11:49:46.235" starttime="20170919 11:49:39.260"></status>
+<status status="PASS" endtime="20170919 11:55:51.845" starttime="20170919 11:55:44.830"></status>
 </kw>
 <kw name="กดปุ่มค้นหา" library="SearchItem">
 <kw name="Wait Until Element Is Not Visible" library="Selenium2Library">
@@ -327,17 +327,17 @@
 <arguments>
 <arg>id=loading</arg>
 </arguments>
-<status status="PASS" endtime="20170919 11:49:47.282" starttime="20170919 11:49:46.237"></status>
+<status status="PASS" endtime="20170919 11:55:52.918" starttime="20170919 11:55:51.848"></status>
 </kw>
 <kw name="Click Element" library="Selenium2Library">
 <doc>Click element identified by `locator`.</doc>
 <arguments>
 <arg>${ปุ่มค้นหาสินค้า}</arg>
 </arguments>
-<msg timestamp="20170919 11:49:47.283" level="INFO">Clicking element '//*[@id="SItem"]/div[2]/section/div[3]/button'.</msg>
-<status status="PASS" endtime="20170919 11:49:48.399" starttime="20170919 11:49:47.282"></status>
+<msg timestamp="20170919 11:55:52.920" level="INFO">Clicking element '//*[@id="SItem"]/div[2]/section/div[3]/button'.</msg>
+<status status="PASS" endtime="20170919 11:55:54.044" starttime="20170919 11:55:52.919"></status>
 </kw>
-<status status="PASS" endtime="20170919 11:49:48.400" starttime="20170919 11:49:46.236"></status>
+<status status="PASS" endtime="20170919 11:55:54.046" starttime="20170919 11:55:51.846"></status>
 </kw>
 <kw name="จะพบชื่อสินค้า" library="SearchItem">
 <arguments>
@@ -348,50 +348,130 @@
 <arguments>
 <arg>${output}</arg>
 </arguments>
-<status status="PASS" endtime="20170919 11:49:49.737" starttime="20170919 11:49:48.404"></status>
+<status status="PASS" endtime="20170919 11:55:55.389" starttime="20170919 11:55:54.049"></status>
 </kw>
 <kw name="Click Element" library="Selenium2Library">
 <doc>Click element identified by `locator`.</doc>
 <arguments>
 <arg>//*[@id="SItem"]/div[2]/section/div[4]/div</arg>
 </arguments>
-<msg timestamp="20170919 11:49:49.739" level="INFO">Clicking element '//*[@id="SItem"]/div[2]/section/div[4]/div'.</msg>
-<status status="PASS" endtime="20170919 11:49:50.878" starttime="20170919 11:49:49.738"></status>
+<msg timestamp="20170919 11:55:55.392" level="INFO">Clicking element '//*[@id="SItem"]/div[2]/section/div[4]/div'.</msg>
+<status status="PASS" endtime="20170919 11:55:56.561" starttime="20170919 11:55:55.390"></status>
 </kw>
-<status status="PASS" endtime="20170919 11:49:50.879" starttime="20170919 11:49:48.401"></status>
+<status status="PASS" endtime="20170919 11:55:56.562" starttime="20170919 11:55:54.047"></status>
 </kw>
-<status status="PASS" endtime="20170919 11:49:50.880" starttime="20170919 11:49:36.996"></status>
+<status status="PASS" endtime="20170919 11:55:56.563" starttime="20170919 11:55:42.598"></status>
 </kw>
 <kw name="เลือกพนักงานขาย" library="SearchSale">
 <kw name="กดปุ่มค้นหาพนักงานขาย" library="SearchSale">
-<kw name="Click Button" library="Selenium2Library">
-<doc>Clicks a button identified by `locator`.</doc>
+<kw name="Wait Until Element Is Not Visible" library="Selenium2Library">
+<doc>Waits until element specified with `locator` is not visible.</doc>
+<arguments>
+<arg>id=loading</arg>
+</arguments>
+<status status="PASS" endtime="20170919 11:55:57.638" starttime="20170919 11:55:56.568"></status>
+</kw>
+<kw name="Focus" library="Selenium2Library">
+<doc>Sets focus to element identified by `locator`.</doc>
 <arguments>
 <arg>${ปุ่มค้นหาพนักงาน}</arg>
 </arguments>
-<msg timestamp="20170919 11:49:50.885" level="INFO">Clicking button '//*[@id="app"]/div[1]/div[1]/div[6]/div[1]/div[2]/i'.</msg>
-<kw name="Capture Page Screenshot" library="Selenium2Library">
-<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
-<msg timestamp="20170919 11:49:53.640" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-2.png"&gt;&lt;img src="selenium-screenshot-2.png" width="800px"&gt;&lt;/a&gt;</msg>
-<status status="PASS" endtime="20170919 11:49:53.641" starttime="20170919 11:49:53.026"></status>
+<status status="PASS" endtime="20170919 11:55:58.723" starttime="20170919 11:55:57.639"></status>
 </kw>
-<msg timestamp="20170919 11:49:53.643" level="FAIL">ValueError: Element locator '//*[@id="app"]/div[1]/div[1]/div[6]/div[1]/div[2]/i' did not match any elements.</msg>
-<status status="FAIL" endtime="20170919 11:49:53.644" starttime="20170919 11:49:50.883"></status>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>${ปุ่มค้นหาพนักงาน}</arg>
+</arguments>
+<msg timestamp="20170919 11:55:58.725" level="INFO">Clicking element '//*[@id="app"]/div[1]/div[1]/div[6]/div[1]/div[2]/i'.</msg>
+<status status="PASS" endtime="20170919 11:55:59.849" starttime="20170919 11:55:58.724"></status>
 </kw>
-<status status="FAIL" endtime="20170919 11:49:53.645" starttime="20170919 11:49:50.882"></status>
+<status status="PASS" endtime="20170919 11:55:59.850" starttime="20170919 11:55:56.566"></status>
 </kw>
-<status status="FAIL" endtime="20170919 11:49:53.645" starttime="20170919 11:49:50.881"></status>
+<kw name="กรอกรหัสพนักงาน" library="SearchSale">
+<arguments>
+<arg>56163</arg>
+</arguments>
+<kw name="Wait Until Element Is Not Visible" library="Selenium2Library">
+<doc>Waits until element specified with `locator` is not visible.</doc>
+<arguments>
+<arg>id=loading</arg>
+</arguments>
+<status status="PASS" endtime="20170919 11:56:00.899" starttime="20170919 11:55:59.851"></status>
+</kw>
+<kw name="Focus" library="Selenium2Library">
+<doc>Sets focus to element identified by `locator`.</doc>
+<arguments>
+<arg>${ช่อง ค้นหาพนักงาน}</arg>
+</arguments>
+<status status="PASS" endtime="20170919 11:56:01.994" starttime="20170919 11:56:00.900"></status>
+</kw>
+<kw name="Input Text" library="Selenium2Library">
+<doc>Types the given `text` into text field identified by `locator`.</doc>
+<arguments>
+<arg>${ช่อง ค้นหาพนักงาน}</arg>
+<arg>${SaleCode}</arg>
+</arguments>
+<msg timestamp="20170919 11:56:01.997" level="INFO">Typing text '56163' into text field '//*[@id="SEmplo"]/div[2]/section/div[2]/input'</msg>
+<status status="PASS" endtime="20170919 11:56:03.716" starttime="20170919 11:56:01.995"></status>
+</kw>
+<status status="PASS" endtime="20170919 11:56:03.716" starttime="20170919 11:55:59.850"></status>
+</kw>
+<kw name="กดปุ่มค้นหาพนักงาน" library="SearchSale">
+<kw name="Wait Until Element Is Not Visible" library="Selenium2Library">
+<doc>Waits until element specified with `locator` is not visible.</doc>
+<arguments>
+<arg>id=loading</arg>
+</arguments>
+<status status="PASS" endtime="20170919 11:56:04.788" starttime="20170919 11:56:03.719"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>${ปุ่มค้นหาพนักงาน1}</arg>
+</arguments>
+<msg timestamp="20170919 11:56:04.790" level="INFO">Clicking element '//*[@id="SEmplo"]/div[2]/section/div[3]/button/span/i'.</msg>
+<status status="PASS" endtime="20170919 11:56:05.909" starttime="20170919 11:56:04.789"></status>
+</kw>
+<status status="PASS" endtime="20170919 11:56:05.910" starttime="20170919 11:56:03.717"></status>
+</kw>
+<kw name="จะพบชื่อพนักงาน" library="SearchSale">
+<arguments>
+<arg>เอกชัย</arg>
+</arguments>
+<kw name="Wait Until Page Contains" library="Selenium2Library">
+<doc>Waits until `text` appears on current page.</doc>
+<arguments>
+<arg>${output1}</arg>
+</arguments>
+<status status="PASS" endtime="20170919 11:56:06.477" starttime="20170919 11:56:05.913"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>xpath=//*[@id="SEmplo"]/div[2]/section/div[4]/div</arg>
+</arguments>
+<msg timestamp="20170919 11:56:06.479" level="INFO">Clicking element 'xpath=//*[@id="SEmplo"]/div[2]/section/div[4]/div'.</msg>
+<status status="PASS" endtime="20170919 11:56:07.650" starttime="20170919 11:56:06.478"></status>
+</kw>
+<status status="PASS" endtime="20170919 11:56:07.652" starttime="20170919 11:56:05.911"></status>
+</kw>
+<status status="PASS" endtime="20170919 11:56:07.652" starttime="20170919 11:55:56.564"></status>
+</kw>
+<kw name="กดบันทึกเอกสาร">
+<msg timestamp="20170919 11:56:07.674" level="FAIL">No keyword with name 'กดบันทึกเอกสาร' found.</msg>
+<status status="FAIL" endtime="20170919 11:56:07.674" starttime="20170919 11:56:07.674"></status>
 </kw>
 <kw type="teardown" name="ปิดหน้าเบราเซอร์" library="setting">
 <kw name="Close Browser" library="Selenium2Library">
 <doc>Closes the current browser.</doc>
-<status status="PASS" endtime="20170919 11:49:54.209" starttime="20170919 11:49:53.649"></status>
+<status status="PASS" endtime="20170919 11:56:08.242" starttime="20170919 11:56:07.678"></status>
 </kw>
-<status status="PASS" endtime="20170919 11:49:54.209" starttime="20170919 11:49:53.647"></status>
+<status status="PASS" endtime="20170919 11:56:08.243" starttime="20170919 11:56:07.676"></status>
 </kw>
-<status status="FAIL" endtime="20170919 11:49:54.209" critical="yes" starttime="20170919 11:49:27.818">ValueError: Element locator '//*[@id="app"]/div[1]/div[1]/div[6]/div[1]/div[2]/i' did not match any elements.</status>
+<status status="FAIL" endtime="20170919 11:56:08.243" critical="yes" starttime="20170919 11:55:32.928">No keyword with name 'กดบันทึกเอกสาร' found.</status>
 </test>
-<status status="FAIL" endtime="20170919 11:49:54.210" starttime="20170919 11:49:27.749"></status>
+<status status="FAIL" endtime="20170919 11:56:08.247" starttime="20170919 11:55:32.859"></status>
 </suite>
 <statistics>
 <total>
