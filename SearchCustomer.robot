@@ -18,13 +18,13 @@ ${ปุ่มค้นหา}         //*[@id="SCusto"]/div[2]/section/div[3]/b
     Wait Until Element Is Not Visible    id=loading
     Focus    ${ปุ่มค้นหาลูกค้า}
     Click Element   ${ปุ่มค้นหาลูกค้า}
+    Set Selenium Timeout    5
     Wait Until Element Is Not Visible    id=loading
     Focus    ${ช่อง ค้นหาลูกค้า}
     Input Text    ${ช่อง ค้นหาลูกค้า}    ${CustomerCode}
 กดปุ่มค้นหาลูกค้า2
-    Wait Until Element Is Visible     ${ปุ่มค้นหา}
     Click Button   ${ปุ่มค้นหา}
-    Wait Until Page Contains     1271092
+    Wait Until Element Is Not Visible    id=loading
     click Element    //*[@id="SCusto"]/div[2]/section/div[4]/div[1]
 จะพบชื่อลูกค้า
     [Arguments]    ${output}

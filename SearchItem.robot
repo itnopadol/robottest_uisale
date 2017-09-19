@@ -13,12 +13,22 @@ ${ปุ่มค้นหา}          //*[@id="SItem"]/div[2]/section/div[3]/b
     จะพบชื่อสินค้า    น้ำยาเชื่อมท่อ
 
 กดปุ่มค้นหาสินค้า
+<<<<<<< HEAD
     Click Button      ${ปุ่มเพิ่มสินค้า}
     Click Element     xpath=/html/body/div[3]/div[7]/div/button
 กรอกรหัสสินค้า
     [Arguments]    ${Itemcode}
     Wait Until Element Is Not Visible    id=loading
     Focus    ${ช่อง ค้นหาสินค้า}
+=======
+    Click Button   ${ปุ่มเพิ่มสินค้า}
+    Click Button     xpath=/html/body/div[3]/div[7]/div/button
+กรอกรหัสสินค้า
+    [Arguments]    ${Itemcode}
+    Wait Until Element Is Not Visible     id=loading
+    Wait Until Element Is Visible    id=SItem
+    Set Selenium Speed    1
+>>>>>>> 84339b5c686c03793a558c458f9b3716c21b0ea8
     Input Text    ${ช่อง ค้นหาสินค้า}    ${Itemcode}
 กดปุ่มค้นหา
     Click Button   ${ปุ่มค้นหา}

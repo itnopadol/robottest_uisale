@@ -4,7 +4,7 @@ Resource    login.robot
 Resource    สร้างเอกสารใหม่.robot
 Resource    เลือกเมนูใบเสนอราคา.robot
 Resource    SearchCustomer.robot
-Resource    SearchItem.robot
+#Resource    SearchItem.robot
 Resource    SearchSale.robot
 Test Teardown    ปิดหน้าเบราเซอร์
 
@@ -14,7 +14,7 @@ Test Teardown    ปิดหน้าเบราเซอร์
     สร้างเอกสารใหม่
     เลือกเมนูใบเสนอราคา
     เลือกลูกค้า
-    เลือกสินค้า
+    #เลือกสินค้า
     เลือกพนักงานขาย
     กดบันทึกเอกสาร
     แสดงเลขที่ใบเสนอราคา
