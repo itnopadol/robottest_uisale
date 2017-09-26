@@ -8,17 +8,7 @@ ${Browser}    gc
 
 *** Keywords ***
 เปิดเบราเซอร์แล้วพิมพ์ URL
-    # ${chrome_options}=    Set Chrome Options
-    # Create Webdriver    Chrome    chrome_options=${chrome_options}
-    # Go To    ${URL}
-    Open Browser    ${URL}
-#
-# Set Chrome Options
-#     [Documentation]    Set Chrome options for headless mode
-#     ${options}=    Evaluate    sys.modules['selenium.webdriver'].ChromeOptions()    sys, selenium.webdriver
-#     : FOR    ${option}    IN    @{chrome_arguments}
-#     \    Call Method    ${options}    add_argument    ${option}
-#     [Return]    ${options}
+    Open Browser    ${URL}  ${Browser}
 
 ปิดหน้าเบราเซอร์
     Close Browser

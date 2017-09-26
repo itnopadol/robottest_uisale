@@ -1,0 +1,14 @@
+1506402021045	geckodriver	INFO	geckodriver 0.18.0
+1506402021050	geckodriver	INFO	Listening on 127.0.0.1:37609
+1506402022164	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1506402023092	Marionette	INFO	Enabled via --marionette
+1506402024503	Marionette	INFO	Listening on port 43775
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1506402024639	Marionette	DEBUG	loaded listener.js
+1506402141972	geckodriver	INFO	geckodriver 0.18.0
+1506402141975	geckodriver	INFO	Listening on 127.0.0.1:39871
+1506402143111	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1506402143633	Marionette	INFO	Enabled via --marionette
+1506402144842	Marionette	INFO	Listening on port 42765
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1506402144980	Marionette	DEBUG	loaded listener.js
