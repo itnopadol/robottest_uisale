@@ -26,6 +26,7 @@ ${ปุ่ม login}    //*[@id="app"]/div[1]/div/div[2]/form/div[3]/p/button
 จะพบข้อความ
       [Arguments]    ${output}
       Set Selenium Speed    1
+      Wait Until Element Is Not Visible    id=loading
       Wait Until Page Contains    ${output}
       Set Selenium Speed    .5
       Capture Page Screenshot
