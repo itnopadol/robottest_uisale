@@ -5,5 +5,7 @@
     Click Element    xpath=//*[@id="app"]/div[1]/div[1]/div[7]/button[3]/i
 
 แสดงเลขที่ใบเสนอราคา
-    Wait Until Page Contains    S01-QHV60
+
+    Wait Until Element Is Not Visible     id=loading
+    Wait Until Page Contains    S01
     Capture Page Screenshot
